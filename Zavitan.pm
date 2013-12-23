@@ -1,6 +1,11 @@
-package Bundle::Zavitan
+package Bundle::Zavitan;
 
-$VERSION = '0.2.0';
+use strict;
+use warnings;
+
+use vars qw($VERSION);
+
+$VERSION = '0.2.1';
 
 1;
 
@@ -8,12 +13,12 @@ __END__
 
 =head1 NAME
 
-Bundle::Zavitan - A bundle to install external CPAN modules used by the 
+Bundle::Zavitan - A bundle to install external CPAN modules used by the
 Zavitan Seminars Manager.
 
 =head1 SYNOPSIS
 
-  
+
 Perl one liner using CPAN.pm:
 
   perl -MCPAN -e 'install Bundle::Zavitan'
@@ -25,7 +30,7 @@ Use of CPAN.pm in interactive mode:
   cpan> quit
 
 Just like the manual installation of perl modules, the user may
-need root access during this process to insure write permission 
+need root access during this process to insure write permission
 is allowed within the intstallation directory.
 
 
